@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background : linear-gradient(#d1c3d6, #f7e599);
+ height: 100vh;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+.link {
+    background-color: #f6cb4e;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: #fff;
+    background-color: #000;
+}
